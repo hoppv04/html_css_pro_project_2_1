@@ -44,6 +44,10 @@ a {
 }
 
 /* Header */
+.header {
+  background: #fff;
+}
+
 .header.fixed {
   position: sticky;
   top: -44px;
@@ -54,7 +58,6 @@ a {
   display: flex;
   align-items: center;
   padding: 52px 0 8px;
-  background-color: #fff;
 }
 
 .header .nav {
