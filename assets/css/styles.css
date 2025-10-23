@@ -453,3 +453,136 @@ a {
   border-radius: 50%;
   background-color: #1ebfc1;
 }
+
+/* Stats */
+.stats {
+  margin-top: 389px;
+}
+
+.stats .body {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 155px;
+}
+
+.stats .item .quantity {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.stats .item .title {
+  margin-top: 11px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* Feedback */
+.feedback {
+  margin-top: 264px;
+}
+
+.feedback .body {
+  display: flex;
+  align-items: center;
+}
+
+.feedback-left {
+  width: 35.8%;
+}
+
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback-list .item {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.feedback-list .item blockquote {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.feedback-list .item .name {
+  position: relative;
+  margin-top: 33px;
+  padding-left: 13px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.feedback-list .item .name strong {
+  color: #070707;
+  font-weight: 500;
+}
+
+.feedback-list .item .name::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  margin-right: 5px;
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.feedback-left .action {
+  display: flex;
+  gap: 30px;
+  margin-top: 52px;
+}
+
+.feedback-left .action button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback-left .action button:hover {
+  opacity: 0.9;
+}
+
+.feedback-right {
+  margin-left: auto;
+}
+
+/* Admit */
+.admit {
+  margin-top: 130px;
+  padding: 76px 0 88px;
+  background-color: #def6f5;
+}
+
+.admit .body {
+  width: 86.8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admit .body .desc {
+  width: 100%;
+}
+
+.admit .title {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
